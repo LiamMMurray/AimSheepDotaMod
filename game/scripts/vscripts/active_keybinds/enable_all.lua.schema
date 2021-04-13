@@ -1,0 +1,26 @@
+require('active_keybinds.util')
+
+if (active_keybinds == nil) then
+    active_keybinds = class({})
+end
+if (active_keybinds.table == nil) then
+    active_keybinds.table = {}
+end
+
+function active_keybinds.initialize_enable_keybind_commands()
+<content :{element |
+    Convars:RegisterCommand("aim_enable_<element.name>_keybind", active_keybinds.enable_<element.name>, "", FCVAR_ARCHIVE)
+}>end
+
+function active_keybinds.enable_all()
+    active_keybinds.size = 0
+
+<content :{element |
+    active_keybinds.enable("<element.name>")
+}>end
+
+<content :{element |
+function active_keybinds.enable_<element.name>()
+    active_keybinds.enable("<element.name>")
+end
+}>

@@ -1,0 +1,43 @@
+if target_cast == nil then
+	target_cast = class({})
+end
+
+function target_cast:setup_items_and_spells(hero)
+	-- Items --
+    -- ===== --
+
+    -- remove the regular tp scroll heroes are spawned with --
+	local teleport_scroll = hero:FindItemInInventory("item_tpscroll")
+	if (teleport_scroll) then
+		hero:RemoveItem(teleport_scroll)
+    end
+    
+	-- teleport_scroll --
+	GameRules:GetGameModeEntity():SetTPScrollSlotItemOverride("item_cast_teleport_scroll_ability")
+	local teleport_scroll = CreateItem("item_cast_teleport_scroll_ability", hero, hero)
+	hero:AddItem(teleport_scroll)
+
+<content :{ element | 
+    <if (element.is_item)>
+    <if (!element.is_teleport_scroll)>
+    -- <element.name> --
+	local <element.name> = CreateItem("item_cast_<element.name>_ability", hero, hero)
+	hero:AddItem(<element.name>)
+    <endif>
+    <endif>
+}>
+
+    local ability_handle = nil	
+<content :{ element | 
+    <if (!element.is_item)>
+
+	-- <element.name> --
+	ability_handle = hero:GetAbilityByIndex(<element.ability_index>)
+	if ability_handle ~= nil then
+		hero:RemoveAbility(ability_handle:GetAbilityName())
+	end
+	hero:AddAbility("cast_<element.name>_ability")
+	hero:UpgradeAbility(hero:FindAbilityByName("cast_<element.name>_ability"))
+    <endif>
+}>
+end

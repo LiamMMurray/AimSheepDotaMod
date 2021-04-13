@@ -1,0 +1,14 @@
+export var ability_keybinds = {
+<content :{ element | 
+
+    <element.name> : {
+        command : "keybind_cast_<element.name>",
+        <if (element.is_keybind)>
+        keybind : Game.GetKeybindForCommand(DOTAKeybindCommand_t.<element.keybind>).replace("ALT-", "ALT+"),
+        <endif>
+        <if (!element.is_item)>
+        ability_index : <element.ability_index>
+        <endif>
+    \},
+}>
+}

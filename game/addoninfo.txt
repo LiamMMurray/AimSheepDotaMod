@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+  "TeamCount" "1"
+  "maps"      "aim_sheep"
+  "IsPlayable"  "1"
+
+  "aim_sheep"
+  {
+          "MaxPlayers"                    "10"
+  }
+}

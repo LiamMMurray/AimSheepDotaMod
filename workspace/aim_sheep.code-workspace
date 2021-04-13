@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "content",
+			"path": "E:\\SteamLibrary\\steamapps\\common\\dota 2 beta\\content\\dota_addons\\aim_sheep"
+		},
+		{
+			"name": "game",
+			"path": "E:\\SteamLibrary\\steamapps\\common\\dota 2 beta\\game\\dota_addons\\aim_sheep"
+		},
+		{
+			"name": "photoshop",
+			"path": "D:\\programs\\adobe\\Adobe Photoshop 2020\\Presets\\Scripts\\Aim_Sheep_Particles"
+		},
+		{
+			"name": "workspace-root",
+			"path": "."
+		},
+		{
+			"name": "antlr-string_template-java",
+			"path": "..\\..\\..\\IdeaProjects\\antlr_file_batch_grammar_test"
+		}
+	],
+	"settings": {}
+}

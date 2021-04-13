@@ -1,0 +1,43 @@
+
+// Dota Abilities Override File
+"DOTAAbilities"
+{
+    "Version" "1"
+
+    // ==============================================
+    // PHASE
+    // ==============================================
+    "aim_phase_lua"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_modifiers/phase/aim_phase_lua.lua"
+        "IsOnCastBar"                "0"
+    }
+
+<content :{ element | 
+    <if (!element.is_item)>
+    "cast_<element.name>_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_<element.name>_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    \}    
+    <endif>
+    "target_<element.name>_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_<element.name>_ability.lua"
+        "IsOnCastBar"                "0"  
+    \}
+}>
+}
+

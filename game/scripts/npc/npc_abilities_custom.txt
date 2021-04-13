@@ -1,0 +1,696 @@
+
+// Dota Abilities Override File
+"DOTAAbilities"
+{
+    "Version" "1"
+
+    // ==============================================
+    // PHASE
+    // ==============================================
+    "aim_phase_lua"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_modifiers/phase/aim_phase_lua.lua"
+        "IsOnCastBar"                "0"
+    }
+
+    "cast_primary_ability1_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_primary_ability1_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_primary_ability1_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_primary_ability1_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_primary_ability2_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_primary_ability2_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_primary_ability2_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_primary_ability2_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_primary_ability3_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_primary_ability3_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_primary_ability3_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_primary_ability3_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_secondary_ability1_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_secondary_ability1_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_secondary_ability1_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_secondary_ability1_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_secondary_ability2_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_secondary_ability2_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_secondary_ability2_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_secondary_ability2_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_ultimate_ability_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_ultimate_ability_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_ultimate_ability_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_ultimate_ability_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "target_item1_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_item1_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "target_item2_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_item2_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "target_item3_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_item3_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "target_item4_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_item4_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "target_item5_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_item5_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "target_item6_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_item6_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "target_neutral_item_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_neutral_item_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "target_teleport_scroll_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_teleport_scroll_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_attack_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_attack_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_attack_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_attack_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_move_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_move_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_move_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_move_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_stop_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_stop_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_stop_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_stop_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_quickbuy_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_quickbuy_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_quickbuy_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_quickbuy_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_sticky_buy_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_sticky_buy_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_sticky_buy_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_sticky_buy_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_open_shop_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_open_shop_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_open_shop_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_open_shop_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_deliver_items_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_deliver_items_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_deliver_items_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_deliver_items_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_select_hero_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_select_hero_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_select_hero_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_select_hero_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_select_courier_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_select_courier_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_select_courier_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_select_courier_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_left_mouse_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_left_mouse_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_left_mouse_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_left_mouse_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_right_mouse_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_right_mouse_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_right_mouse_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_right_mouse_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_camera_grip_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_camera_grip_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_camera_grip_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_camera_grip_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_scoreboard_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_scoreboard_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_scoreboard_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_scoreboard_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit1_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit1_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit1_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit1_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit2_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit2_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit2_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit2_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit3_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit3_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit3_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit3_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit4_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit4_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit4_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit4_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit5_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit5_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit5_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit5_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit6_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit6_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit6_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit6_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit7_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit7_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit7_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit7_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit8_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit8_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit8_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit8_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit9_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit9_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit9_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit9_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_unit10_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_unit10_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_unit10_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_unit10_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_next_unit_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_next_unit_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_next_unit_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_next_unit_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+    "cast_prev_unit_ability"
+    {
+        "BaseClass" "ability_lua"
+        "MaxLevel"            "1"
+        "IsOnCastBar"         "0"
+        "ScriptFile"  "target_abilities_cast/cast_prev_unit_ability"
+        "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_TURN"
+        "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+        "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityCastPoint"  "0.0"
+        "AbilityCooldown" "0.0"
+        "AbilityManaCost" "0"
+    }    
+    "target_prev_unit_ability"
+    {
+        "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                 "ability_lua"
+        "ScriptFile"                "target_abilities_modifier/target_prev_unit_ability.lua"
+        "IsOnCastBar"                "0"  
+    }
+
+}
+

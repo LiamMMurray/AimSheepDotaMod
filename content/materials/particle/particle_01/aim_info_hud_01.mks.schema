@@ -1,0 +1,6 @@
+<content :{ element | 
+<if (element.is_particle01)>
+sequence <element.particle_sequence_index>
+frame tga/<element.name>.tga 1
+<endif>
+}>

@@ -1,0 +1,27 @@
+ // Dota Units File
+"DOTAUnits"
+{
+  "Version" "1"
+  "sheep"
+    {                              
+        "vscripts"              "units/ai/ai_sheep.lua"
+        "Model"                 "models/items/hex/sheep_hex/sheep_hex.vmdl" // Model.
+        "BaseClass"             "npc_dota_creature"
+        "Level"                 "7"
+        "ModelScale"            "1"
+
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "200"
+        "MovementTurnRate"          "5.0"   // Turning rate.
+        "CombatClassAttack"         "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+        "CombatClassDefend"         "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+
+        // Abilities
+        //----------------------------------------------------------------
+        "Ability1"                  ""
+        "Ability2"                  ""
+        "Ability3"                  ""
+        "Ability4"                  ""
+    }
+}

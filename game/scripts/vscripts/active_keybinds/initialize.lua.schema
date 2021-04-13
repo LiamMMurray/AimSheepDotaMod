@@ -1,0 +1,23 @@
+require('active_keybinds.util')
+
+if (active_keybinds == nil) then
+    active_keybinds = class({})
+end
+if (active_keybinds.table == nil) then
+    active_keybinds.table = {}
+end
+
+function active_keybinds.initialize()
+    active_keybinds.size = <length(content)>
+
+<content :{element |
+    active_keybinds.table["<element.name>"] = true
+}>
+
+<content :{element |
+    keybind_flag = Convars:GetBool("aim_<element.name>_active")
+    if (keybind_flag ~= true) then
+        active_keybinds.disable("<element.name>")
+    end
+
+}>end

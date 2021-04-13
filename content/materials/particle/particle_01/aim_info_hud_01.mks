@@ -1,0 +1,18 @@
+sequence 0
+frame tga/unit4.tga 1
+sequence 1
+frame tga/unit5.tga 1
+sequence 2
+frame tga/unit6.tga 1
+sequence 3
+frame tga/unit7.tga 1
+sequence 4
+frame tga/unit8.tga 1
+sequence 5
+frame tga/unit9.tga 1
+sequence 6
+frame tga/unit10.tga 1
+sequence 7
+frame tga/next_unit.tga 1
+sequence 8
+frame tga/prev_unit.tga 1

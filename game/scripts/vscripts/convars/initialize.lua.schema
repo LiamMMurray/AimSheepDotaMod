@@ -1,0 +1,12 @@
+require ('convars.util')
+
+if convars == nil then
+    convars = class({})
+end
+
+function convars:initialize()
+
+<content :{ element |
+	convars:convar_init_bool("aim_<element.name>_active", "true")
+}>
+end

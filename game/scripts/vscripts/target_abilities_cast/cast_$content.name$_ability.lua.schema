@@ -1,0 +1,6 @@
+require("target_cast.index")
+<if (_.is_item)>item_<endif>cast_<_.name>_ability = class({})
+
+function <if (_.is_item)>item_<endif>cast_<_.name>_ability:OnSpellStart()
+    target_cast:on_cast_ability(self, "modifier_target_<_.name>_ability")
+end

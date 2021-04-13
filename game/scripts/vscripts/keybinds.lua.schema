@@ -1,0 +1,9 @@
+keybinds = {
+<content :{ element |
+    <element.name> = {
+        sequence_offset = <element.sequence_offset>,
+        particle = "<element.particle_vector_offset>",
+        modifier = "target_<element.name>_ability",
+        color = <element.color>
+    \},}>
+}

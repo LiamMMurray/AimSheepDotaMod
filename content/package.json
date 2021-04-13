@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "node --preserve-symlinks node_modules/webpack/bin/webpack.js --config panorama/webpack.config.js",
+    "dev": "node --preserve-symlinks node_modules/webpack/bin/webpack.js --config panorama/webpack.config.js --watch"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0-rc.6",
+    "webpack-cli": "^4.4.0",
+    "webpack-panorama": "^0.2.0"
+  }
+}
