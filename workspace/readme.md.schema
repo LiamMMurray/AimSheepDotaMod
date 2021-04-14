@@ -5,12 +5,12 @@ Console Commands
 
 Spawn Behavior
 ___________________________________
-aim_spawn_interval 
-    (interval between targets spawning)
-aim_spawn_width
-    (distance in dota units horizontally accross the map targets can spawn)
-aim_spawn_height
-    (distance in dota units vertically accross the map targets can spawn)
+    aim_spawn_interval 
+        (interval between targets spawning)
+    aim_spawn_width
+        (distance in dota units horizontally accross the map targets can spawn)
+    aim_spawn_height
+        (distance in dota units vertically accross the map targets can spawn)
 
 Custom Sets               
 ___________________________________
